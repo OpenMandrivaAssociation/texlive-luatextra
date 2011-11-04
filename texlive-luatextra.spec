@@ -1,3 +1,9 @@
+# revision 20747
+# category Package
+# catalog-ctan /macros/luatex/latex/luatextra
+# catalog-date 2010-12-14 15:25:48 +0100
+# catalog-license pd
+# catalog-version 1.0.1
 Name:		texlive-luatextra
 Version:	1.0.1
 Release:	1
@@ -48,6 +54,7 @@ specification may be expected to change.
 #- source
 %doc %{_texmfdistdir}/source/lualatex/luatextra/Makefile
 %doc %{_texmfdistdir}/source/lualatex/luatextra/luatextra.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ specification may be expected to change.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
