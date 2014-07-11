@@ -6,7 +6,7 @@
 # catalog-version 1.0.1
 Name:		texlive-luatextra
 Version:	1.0.1
-Release:	7
+Release:	8
 Summary:	Additional macros for Plain TeX and LaTeX in LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/luatextra
