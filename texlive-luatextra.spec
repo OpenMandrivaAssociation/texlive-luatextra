@@ -1,6 +1,6 @@
 Name:		texlive-luatextra
 Version:	20747
-Release:	1
+Release:	2
 Summary:	Additional macros for Plain TeX and LaTeX in LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/luatextra
