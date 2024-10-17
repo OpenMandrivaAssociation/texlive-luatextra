@@ -3,7 +3,7 @@ Version:	20747
 Release:	2
 Summary:	Additional macros for Plain TeX and LaTeX in LuaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/luatextra
+URL:		https://www.ctan.org/tex-archive/macros/luatex/latex/luatextra
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/luatextra.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/luatextra.doc.r%{version}.tar.xz
